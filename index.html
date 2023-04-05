@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>Rock Paper Scissors Game</h1>
+    <br>
+    <br>
+    <div class="rps">
+        <button class="rock" onclick="play(0)"></button>
+        <button class="paper" onclick="play(1)"></button>
+        <button class="scissors" onclick="play(2)"></button>
+    </div>
+
+    <div>
+        <br>
+        <br>
+        <button onclick="getGamePlayed()">Получить результат</button>
+        <p>Результат: <span id="result"></span></p>
+    </div>
+</body>
+
+</html>
